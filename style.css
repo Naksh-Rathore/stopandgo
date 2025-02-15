@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+#timeDisplay {
+    transform: translateY(75px);
+}
+
+hr {
+    transform: translateY(75px);
+}
+
+img {
+    position: absolute;
+    width: 100px;
+    top: 590px;
+    left: 300px;
+    transition: transform 0.25s ease;
+}
+
+#trafficLight {
+    background-color: rgb(255, 238, 0);
+    transform: translateY(250px);
+    border: 2px solid grey;
+    padding: 20px;
+    width: 10%;
+    margin-top: -32px;
+    margin-left: 575px;
+}
+
+button {
+    border: solid 1px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: rgba(89, 87, 87, 0.746);
+    transition: background-color 0.2s ease;
+}
+
+hr {
+    height: 5px;
+    background-color: orange;
+    border: none;
+}
