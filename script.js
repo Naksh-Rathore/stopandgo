@@ -42,7 +42,7 @@ document.addEventListener("keydown", event => {
 
     if (!playing) return;
 
-    if (isRedLight) {
+    if (isRedLight && (["Enter", "Return"].includes(event.key))) {
         playing = false;
         yOffset = 0;
         window.alert("You lost!");
